@@ -1,8 +1,10 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "firststridecoaching"
+  title: "First Stride Coaching"
+  favicon: images/logo.png
   navbar:
     left:
       - href: index.qmd
