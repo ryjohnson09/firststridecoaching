@@ -6,10 +6,12 @@ website:
   title: "First Stride Coaching"
   favicon: images/logo.png
   navbar:
+    logo: images/logo.png
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - text: How it Works
+      - text: Meet the Coach
 
 format:
   html:
