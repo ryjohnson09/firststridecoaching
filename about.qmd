@@ -1,29 +1,21 @@
 ---
-title: "Ryan Johnson"
 about:
   template: trestles
   image: images/ryan-pic.png
-  links:
-    - icon: twitter
-      text: twitter
-      href: https://twitter.com
-    - icon: github
-      text: Github
-      href: https://github.com
 ---
 
-Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana.
+Ryan Johnson is the owner and head coach at First Stride Coaching. During Ryan's 15+ year running career, he has competed in every distance from one to one hundred miles. He obtained his bachelors degree from Juniata College in Biology and a Ph.D. in Microbiology from the Uniformed Services University of the Health Sciences in Maryland.
 
-## Education
+## Certifications
 
-University of California, San Diego | San Diego, CA
-PhD in Mathematics | Sept 2011 - June 2015
+![RRCA Level 1](images/2021.Certified-Coach-LEVEL-I-Logo.jpg){width="131"}
 
-Macalester College | St. Paul MA
-B.A in Economics | Sept 2007 - June 2011
+## Favorite Races and Personal Records
 
-## Experience
+2015 - Boston Marathon \| Boston, MA \| 2:42:24
 
-Wengo Analytics | Head Data Scientist | April 2018 - present
+2019 - Parks Half Marathon \| Rockville, MD \| 1:14:52 (PR)
 
-GeoScynce | Chief Analyst | Spet 2012 - April 2018
+2019 - Steamtown Marathon \| Scranton, PA \| 2:35:57 (PR)
+
+2022 - Rim to River 100 Miler \| New River Gorge, WV \| 25:55:24

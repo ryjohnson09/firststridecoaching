@@ -10,8 +10,10 @@ website:
     right:
       - href: index.qmd
         text: Home
+      - href: plans.qmd
+        text: Coaching Plans
       - href: about.qmd
-        text: Meet the Coach
+        text: Coaches
       
 
 format:
