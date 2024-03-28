@@ -1,7 +1,6 @@
 /*-- scss:defaults --*/
 
 
-
 //
 // Color system
 //
@@ -97,15 +96,15 @@ $custom-bullet-image: url('images/logo.png');
 }
 
 
-
-
-
-
-/*-- TESTING --*/
+// Headers and Text
 h2, h3, .h2, .h3 {
     border-bottom: none;
     font-size: 2em;
     text-align: center;
+}
+
+h4 {
+  text-align: center;
 }
 
 p {
@@ -118,4 +117,53 @@ p {
   color: $logo-orange;
 }
 
+
+
+// Define divider class
+.divider {
+  width: 100%; // Full width of the container
+  margin: 60px 0 60px 0; // Adjust margin as needed
+  border-top: 4px dashed #FF5733;
+}
+
+
+
+.work-container {
+  display: flex;
+  align-items: center; // Vertically center the items
+  width: 90%; // Set the width to 80% of the screen
+  margin: 0 auto;
+
+
+  .work-image {
+  flex: 0 0 auto; // Let the image shrink or grow as needed
+  margin-right: 20px; // Add some space between the image and text
+  }
+
+  p {
+  flex: 1; // Let the text take up remaining space
+  text-align: left;
+  
+  }
+}
+
+
+.bottom-arrow {
+      border-bottom: 3px solid $logo-blue;
+      width: 80%;
+      margin: 2em auto 3em auto;
+      
+    &:after {
+    content:'';
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: 25px solid $logo-blue;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    }
+}
 

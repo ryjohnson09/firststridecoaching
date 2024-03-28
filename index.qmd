@@ -1,11 +1,12 @@
 ---
 title: ""
+editor: source
 ---
 
 ```{=html}
 <h2>All running goals start by taking that<br><span class="highlight">FIRST STRIDE</span></h2>
 ```
-![](images/logo.png){fig-align="center" width="387"}
+![](images/logo.png){fig-align="center" width="300"}
 
 ## Welcome to **First Stride Coaching**
 
@@ -25,7 +26,33 @@ title: ""
 :::
 :::
 
+::: divider
+:::
+
 ## How Does it Work?
+
+
+::: work-container
+::: work-image
+![](images/document-901.png){width="100"}
+:::
+::: work-text
+Complete a questionnaire to help our coaches understand your needs and lifestyle, allowing them to create a customized running plan to achieve your goals.
+:::
+:::
+
+::: bottom-arrow
+:::
+
+::: work-container
+::: work-image
+![](images/wrench-and-screwdriver-9431.png){width="100"}
+:::
+::: work-text
+Work alongside our coaches to tweak your plan before and during your training.
+:::
+:::
+
 
 ## Frequently Asked Questions
 
