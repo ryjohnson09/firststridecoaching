@@ -1,0 +1,121 @@
+/*-- scss:defaults --*/
+
+
+
+//
+// Color system
+//
+$white: #fff !default;
+$logo-blue: #003049 !default;
+$logo-orange: #f84f1c !default;
+$light-gray: #F5F5F5 !default;
+$dark-gray: #BFBFBF !default;
+$body-bg: $light-gray;
+$body-color: $logo-blue;
+
+// Navbar
+$navbar-bg: $light-gray !default;
+$navbar-fg: $logo-blue !default;
+$navbar-hl: $logo-blue !default;
+
+
+/*-- scss:rules --*/
+
+// Navbar
+.nav-link {
+  &:hover {
+    text-decoration: underline dotted $logo-orange;
+  }
+}
+
+.navbar-brand {
+  font-size: clamp(1.2em, 2vw, 2.5em);
+  max-width: 100%;
+}
+
+.navbar-logo {
+  max-width: 100%;
+  max-height: clamp(1.2em, 2vw, 3em);
+}
+
+// Accordion
+.accordion-button {
+  background-color: $light-gray;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background-color: darken($light-gray, 5%);
+  }
+  
+  &:not(.collapsed) {
+    background-color: darken($light-gray, 5%); 
+  }
+}
+
+.accordion-content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion-header {
+  border-bottom: none !important; // Removes the border under headers
+}
+
+.accordion-item {
+  border: none;
+}
+
+// Custom list
+$custom-bullet-image: url('images/logo.png');
+
+.custom-list-container {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.custom-list {
+
+  ul li::marker {
+    color: $logo-orange; // Customize color
+    font-size: 1.2rem; // Customize size
+  }
+  
+  p {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 1.2rem;
+  }
+}
+
+
+
+
+
+
+/*-- TESTING --*/
+h2, h3, .h2, .h3 {
+    border-bottom: none;
+    font-size: 2em;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.highlight {
+  white-space: nowrap;
+  font-size: 1.5em;
+  color: $logo-orange;
+}
+
+

@@ -2,6 +2,64 @@
 title: ""
 ---
 
-Coming Soon!
+```{=html}
+<h2>All running goals start by taking that<br><span class="highlight">FIRST STRIDE</span></h2>
+```
+![](images/logo.png){fig-align="center" width="387"}
 
-![](images/logo.svg){fig-align="center"}
+## Welcome to **First Stride Coaching**
+
+#### Your first step towards achieving your running goals! Whether you're taking your initial steps into running, aiming to smash a personal best, or training for marathons and beyond, we're here to guide, support, and push you to new heights. Here's why runners of all levels choose us:
+
+<br>
+
+::: custom-list-container
+::: custom-list
+-   **Personalized Training Plans**: Tailored to your goals, fitness level, your running environment, and lifestyle.
+
+-   **Expert Coaching**: Benefit from certified coaches who are experienced runners themselves.
+
+-   **Flexible Coaching Options**: Choose a plan that fits your preferences and budget.
+
+-   **Welcoming to All**: We welcome runners of all backgrounds and experiences, especially if you've never worked with a coach before.
+:::
+:::
+
+## How Does it Work?
+
+## Frequently Asked Questions
+
+```{=html}
+<div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Do I really need a Running Coach?
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+    </div>
+  </div>
+</div>
+```

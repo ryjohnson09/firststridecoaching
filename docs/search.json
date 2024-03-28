@@ -1,9 +1,58 @@
 [
   {
+    "objectID": "index.html#accordion-example",
+    "href": "index.html#accordion-example",
+    "title": "First Stride Coaching",
+    "section": "Accordion Example",
+    "text": "Accordion Example\nGood for FAQs\n\n  \n    \n      \n        Do I really need a Running Coach?\n      \n    \n    \n      Placeholder content for this accordion, which is intended to demonstrate the .accordion-flush class. This is the first item's accordion body.\n    \n  \n  \n    \n      \n        Accordion Item #2\n      \n    \n    \n      Placeholder content for this accordion, which is intended to demonstrate the .accordion-flush class. This is the second item's accordion body. Let's imagine this being filled with some actual content.\n    \n  \n  \n    \n      \n        Accordion Item #3\n      \n    \n    \n      Placeholder content for this accordion, which is intended to demonstrate the .accordion-flush class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Ryan Johnson",
+    "section": "",
+    "text": "Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "Ryan Johnson",
+    "section": "Education",
+    "text": "Education\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "Ryan Johnson",
+    "section": "Experience",
+    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "First Stride Coaching",
     "section": "",
-    "text": "Coming Soon!"
+    "text": "All running goals start by taking thatFIRST STRIDE"
+  },
+  {
+    "objectID": "index.html#frequently-asked-questions",
+    "href": "index.html#frequently-asked-questions",
+    "title": "First Stride Coaching",
+    "section": "Frequently Asked Questions",
+    "text": "Frequently Asked Questions\n\n  \n    \n      \n        Do I really need a Running Coach?\n      \n    \n    \n      Placeholder content for this accordion, which is intended to demonstrate the .accordion-flush class. This is the first item's accordion body.\n    \n  \n  \n    \n      \n        Accordion Item #2\n      \n    \n    \n      Placeholder content for this accordion, which is intended to demonstrate the .accordion-flush class. This is the second item's accordion body. Let's imagine this being filled with some actual content.\n    \n  \n  \n    \n      \n        Accordion Item #3\n      \n    \n    \n      Placeholder content for this accordion, which is intended to demonstrate the .accordion-flush class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application."
+  },
+  {
+    "objectID": "index.html#how-does-it-work",
+    "href": "index.html#how-does-it-work",
+    "title": "First Stride Coaching",
+    "section": "How Does it Work?",
+    "text": "How Does it Work?"
+  },
+  {
+    "objectID": "index.html#welcome-to-first-stride-coaching",
+    "href": "index.html#welcome-to-first-stride-coaching",
+    "title": "First Stride Coaching",
+    "section": "Welcome to First Stride Coaching",
+    "text": "Welcome to First Stride Coaching\n\nYour first step towards achieving your running goals! Whether you’re taking your initial steps into running, aiming to smash a personal best, or training for marathons and beyond, we’re here to guide, support, and push you to new heights. Here’s why runners of all levels choose us:\n\n\n\n\nPersonalized Training Plans: Tailored to your goals, fitness level, your running environment, and lifestyle.\nExpert Coaching: Benefit from certified coaches who are experienced runners themselves.\nFlexible Coaching Options: Choose a plan that fits your preferences and budget.\nWelcoming to All: We welcome runners of all backgrounds and experiences, especially if you’ve never worked with a coach before."
   }
 ]

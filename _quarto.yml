@@ -7,17 +7,17 @@ website:
   favicon: images/logo.png
   navbar:
     logo: images/logo.png
-    left:
+    right:
       - href: index.qmd
         text: Home
-      - text: How it Works
-      - text: Meet the Coach
+      - href: about.qmd
+        text: Meet the Coach
+      
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
-    toc: true
+    theme: [styles.scss, cosmo]
+    anchor-sections: false
 
 editor: visual
 
