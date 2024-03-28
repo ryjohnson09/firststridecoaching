@@ -53,6 +53,18 @@ Work alongside our coaches to tweak your plan before and during your training.
 :::
 :::
 
+::: bottom-arrow
+:::
+
+::: work-container
+::: work-image
+![](images/speech-bubble-1078.png){width="100"}
+:::
+::: work-text
+
+:::
+:::
+
 
 ## Frequently Asked Questions
 
