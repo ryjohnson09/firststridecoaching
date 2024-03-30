@@ -4,9 +4,9 @@ project:
 
 website:
   title: "First Stride Coaching"
-  favicon: images/logo.png
+  favicon: images/fsclogo.png
   navbar:
-    logo: images/logo.png
+    logo: images/fsclogo.png
     right:
       - href: index.qmd
         text: Home
