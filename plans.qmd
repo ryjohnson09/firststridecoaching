@@ -6,7 +6,7 @@ editor: source
 ```{=html}
 <h2><span class="highlight">COACHING<br>DETAILS</span></h2>
 ```
-#### At First Stride Coaching, we're all about keeping our athletes informed and happy! That's why we've put together this page—to give you the lowdown on what our coaching experience is all about. Feel free to get in touch if you want to know more or have any other questions!
+#### At First Stride Coaching, we're all about keeping our athletes informed and happy! That's why we've put together this page—to give you the lowdown on what our coaching experience is all about. Feel free to [get in touch](https://firststridecoaching.com/plans.html) if you want to know more or have any other questions!
 
 ## Personal Coaching
 
@@ -55,6 +55,5 @@ document.getElementById("externalLink").addEventListener("click", function() {
 
 </body>
 </html>
-
 ```
 :::
