@@ -80,7 +80,7 @@ document.getElementById("externalLink").addEventListener("click", function() {
 
 <script>
 document.getElementById("externalLink1").addEventListener("click", function() {
-  window.location.href = "https://www.finalsurge.com/coach/firststridecoaching?tab=services"; 
+  window.location.href = "https://www.finalsurge.com/coach/firststridecoaching/services/subscriptions/personalruncoaching"; 
 });
 </script>
 
