@@ -117,7 +117,9 @@ document.getElementById("externalLink").addEventListener("click", function() {
 </html>
 ```
 :::
+
 <br>
+
 ::: work-container
 ```{=html}
 <!DOCTYPE html>
