@@ -93,6 +93,7 @@ Ready to take the first stride? Let's do this together!
 <br>
 
 ::: work-container
+
 ```{=html}
 <!DOCTYPE html>
 <html lang="en">
@@ -116,11 +117,13 @@ document.getElementById("externalLink").addEventListener("click", function() {
 </body>
 </html>
 ```
+
 :::
 
 <br>
 
 ::: work-container
+
 ```{=html}
 <!DOCTYPE html>
 <html lang="en">
@@ -133,10 +136,10 @@ document.getElementById("externalLink").addEventListener("click", function() {
 </head>
 <body>
 
-<button class="button" id="externalLink">Sign Up Today!</button>
+<button class="button" id="externalLink1">Sign Up Today!</button>
 
 <script>
-document.getElementById("externalLink").addEventListener("click", function() {
+document.getElementById("externalLink1").addEventListener("click", function() {
   window.location.href = "https://www.finalsurge.com/coach/firststridecoaching?tab=services"; 
 });
 </script>
@@ -144,6 +147,7 @@ document.getElementById("externalLink").addEventListener("click", function() {
 </body>
 </html>
 ```
+
 :::
 
 ::: divider
