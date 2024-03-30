@@ -4,7 +4,11 @@ about:
   image: images/ryan-pic.png
 ---
 
-Ryan Johnson is the owner and head coach at First Stride Coaching. During Ryan's 15+ year running career, he has competed in every distance from one to one hundred miles. He obtained his bachelors degree from Juniata College in Biology and a Ph.D. in Microbiology from the Uniformed Services University of the Health Sciences in Maryland.
+## Ryan Johnson
+
+<center>**ryan\@firststridecoaching.com**</center>
+<br>
+Ryan is the owner and head coach at First Stride Coaching. During Ryan's 15+ year running career, he has competed in every distance from one to one hundred miles. He obtained his bachelors degree from Juniata College in Biology and a Ph.D. in Microbiology from the Uniformed Services University of the Health Sciences in Maryland.
 
 ## Certifications
 

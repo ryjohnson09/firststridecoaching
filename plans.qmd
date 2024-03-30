@@ -1,3 +1,60 @@
 ---
 title: ""
+editor: source
 ---
+
+```{=html}
+<h2><span class="highlight">COACHING DETAILS</span></h2>
+```
+#### At First Stride Coaching, we're all about keeping our athletes informed and happy! That's why we've put together this page—to give you the lowdown on what our coaching experience is all about. Feel free to get in touch if you want to know more or have any other questions!
+
+## Personal Coaching
+
+::: custom-list-container
+::: custom-list
+-   Prior to signing up, we'll ask you to complete a brief questionnaire to gather information about your running experience, goals, injury history, training preferences, and environment. If we need any additional details, we'll be sure to reach out to you!
+
+-   You will need to create an account on [Final Surge](https://www.finalsurge.com/), the training platform used by First Stride Coaching. We also recommend downloading the Final Surge app to your phone for added convenience. Get it on [Google Play](https://play.google.com/store/apps/details?id=com.finalsurge.runtracker) or the [Apple App Store](https://apps.apple.com/us/app/final-surge-mobile/id929796646?ls=1).
+
+-   A coach will send you a [Coaching Invitation](https://support.finalsurge.com/hc/en-us/articles/360051996673-Connecting-with-your-Coach) through Final Surge. You'll also receive the invite via email.
+
+-   We then craft a customized training plan to meet your specific running goal(s). The plan will be made available to you through Final Surge.
+
+-   If you have any questions or want to tweak the plan, our coaches are here to help! Just let us know, and we'll work together to make sure your plan fits just right.
+
+-   Once your plan is set, simply open Final Surge to access your daily workout. Then, strap on your GPS running watch, and start running!
+
+-   After finishing your run, you'll upload it to your preferred run tracking platform. [See a full list of supported platforms here](https://www.finalsurge.com/connected-apps).
+
+-   Make sure Final Surge is connected to your run platform of choice so that our coaches can check your progress.
+
+-   Ask us anything! You can message your coach through Final Surge at any time.
+:::
+:::
+
+::: work-container
+```{=html}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Button Navigation</title>
+  <!-- Include your compiled CSS file -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<button class="button" id="externalLink">Sign Up Today!</button>
+
+<script>
+document.getElementById("externalLink").addEventListener("click", function() {
+  window.location.href = "https://www.finalsurge.com/coach/firststridecoaching"; // Replace with your external URL
+});
+</script>
+
+</body>
+</html>
+
+```
+:::

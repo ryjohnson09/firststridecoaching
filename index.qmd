@@ -35,13 +35,12 @@ Coming Soon!
 
 ## How Does it Work?
 
-
 ::: work-container
 ::: work-image
 ![](images/document-901.png){width="100"}
 :::
 ::: work-text
-Complete a questionnaire to help our coaches understand your needs and lifestyle, allowing them to create a customized running plan to achieve your goals.
+Fill out a short questionnaire to help our coaches tailor a training plan just for you!
 :::
 :::
 
@@ -53,7 +52,19 @@ Complete a questionnaire to help our coaches understand your needs and lifestyle
 ![](images/wrench-and-screwdriver-9431.png){width="100"}
 :::
 ::: work-text
-Traveling for work? Need to take a day off? No worries! Our coaches will work with you to adjust your plan before and during your training.
+Our coaches will work with you to make necessary adjustments to your training plan.
+:::
+:::
+
+::: bottom-arrow
+:::
+
+::: work-container
+::: work-image
+![](images/running-shoes-8591.png){width="100"}
+:::
+::: work-text
+Lace up your shoes and start training! 
 :::
 :::
 
@@ -65,7 +76,7 @@ Traveling for work? Need to take a day off? No worries! Our coaches will work wi
 ![](images/speech-bubble-1078.png){width="100"}
 :::
 ::: work-text
-Feel free to reach out to your coach anytime with questions about your running plan; they're here to help! And don't be surprised if our coaches check in with progress updates, workout recaps, and race strategies to keep you on track and motivated!
+Got questions? Message your coach anytime! They'll also check in with workout recaps, plan tweaks, and race tips to keep you motivated and on track!
 :::
 :::
 
@@ -73,9 +84,7 @@ Feel free to reach out to your coach anytime with questions about your running p
 :::
 
 ## Why Choose First Stride Coaching
-First Stride Coaching brings the best of both worlds: **convenience and affordability**. Our online-only platform caters to your hectic lifestyle, ensuring coaching access anytime, anywhere. 
-
-Plus, compared to traditional in-person coaching, our plans are **budget-friendly**, with coaching options for any budget. 
+At First Stride Coaching, you get the best of both worlds: **convenience and affordability**. Our online platform fits your busy schedule, providing coaching wherever and whenever you need it, all at a fraction of the cost of traditional in-person coaching.
 
 But it's not just about the savings – our experienced coaches are dedicated to making your fitness journey **enjoyable and effective**. With personalized guidance and support, hitting your personal fitness milestones becomes both seamless and fun. 
 
@@ -84,9 +93,30 @@ Ready to take the first stride? Let's do this together!
 <br>
 
 ::: work-container
-::: button
-Contact us Today!
-:::
+```{=html}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Button Navigation</title>
+  <!-- Include your compiled CSS file -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<button class="button" id="externalLink">Sign Up Today!</button>
+
+<script>
+document.getElementById("externalLink").addEventListener("click", function() {
+  window.location.href = "https://www.finalsurge.com/coach/firststridecoaching"; // Replace with your external URL
+});
+</script>
+
+</body>
+</html>
+
+```
 :::
 
 ::: divider
@@ -127,7 +157,7 @@ Contact us Today!
       </button>
     </h2>
     <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">No need to stop doing what you already love! If you're into sticking with your weight-lifting routine, that's great! We can adjust your training plan to incorporate the runs needed to tackle both your strength and running goals.</div>
+      <div class="accordion-body">No need to stop doing what you already love! If you want to stick with your weight-lifting routine, that's great! We can adjust your training plan to incorporate the runs needed to tackle both your strength and running goals.</div>
     </div>
   </div>
   
@@ -152,6 +182,30 @@ Contact us Today!
     </h2>
     <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
       <div class="accordion-body">We offer coaching for any distance! Whether you're aiming to improve your mile time or gearing up for your first 100-mile ultramarathon, we've got your back!</div>
+    </div>
+  </div>
+  
+  
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+        Do I need a running GPS watch?
+      </button>
+    </h2>
+    <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Yes, you will need a GPS watch and upload your runs to any of the <a href="https://www.finalsurge.com/connected-apps">supported platforms</a>.<br><br>As part of First Stride Coaching, you will be given a monthly subscription to <a href="https://www.finalsurge.com/premium">Final Surge Athlete Premium</a>, which comes with 20% off Garmin Products!</div>
+    </div>
+  </div>
+  
+  
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+        How do I interact with my coach?
+      </button>
+    </h2>
+    <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">To make things easier for you, all communication is handled through our training platform, <a href="https://www.finalsurge.com/">Final Surge</a>. Your training plan will also be delivered through Final Surge. Of course, our coaches are also reachable via email if needed!</div>
     </div>
   </div>
   
