@@ -3,10 +3,6 @@ title: ""
 editor: source
 ---
 
-::: coming-soon-banner
-Coming Soon!
-:::
-
 ```{=html}
 <h2>All running goals start by taking the<br><span class="highlight">FIRST STRIDE</span></h2>
 ```
