@@ -102,36 +102,6 @@ Ready to take the first stride? Let's do this together!
 </head>
 <body>
 
-<button class="button" id="externalLink">Contact Us</button>
-
-<script>
-document.getElementById("externalLink").addEventListener("click", function() {
-  window.location.href = "https://www.finalsurge.com/coach/firststridecoaching?tab=bio";
-});
-</script>
-
-</body>
-</html>
-```
-
-:::
-
-<br>
-
-::: work-container
-
-```{=html}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Button Navigation</title>
-  <!-- Include your compiled CSS file -->
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
 <button class="button" id="externalLink1">Sign Up Today!</button>
 
 <script>
@@ -240,3 +210,11 @@ document.getElementById("externalLink1").addEventListener("click", function() {
 </div>
 ```
 
+::: divider
+:::
+
+```{=html}
+<center>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScsY05Q7SV15MePasCKf05UcpzJBTY-hygt1zpVvdtUnPJlHQ/viewform?embedded=true" width="100%" height="1100px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</center>
+```
