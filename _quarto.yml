@@ -7,6 +7,7 @@ project:
 website:
   title: "First Stride Coaching"
   favicon: images/fsclogo.png
+  google-analytics: "G-81LWDQC49S"
   navbar:
     logo: images/fsclogo.png
     right:
