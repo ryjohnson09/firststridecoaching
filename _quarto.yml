@@ -17,6 +17,8 @@ website:
         text: Coaching Details
       - href: about.qmd
         text: Coaches
+      - href: posts.qmd
+        text: Blog
       
 
 format:

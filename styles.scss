@@ -221,6 +221,14 @@ $button-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); // Button shadow
   }
 }
 
+// Blog
+.quarto-post {
+  h2, h3, .h2, .h3 {
+    border-bottom: none;
+    font-size: 2em;
+    text-align: left;
+  }
+}
 
 
 

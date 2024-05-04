@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>First Stride Coaching -</title>
+<title>First Stride Coaching - FSC Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./images/fsclogo.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -66,6 +68,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-81LWDQC49S"></script>
 
 <script type="text/javascript">
@@ -76,10 +107,39 @@ gtag('js', new Date());
 gtag('config', 'G-81LWDQC49S', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -100,7 +160,7 @@ gtag('config', 'G-81LWDQC49S', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -112,7 +172,7 @@ gtag('config', 'G-81LWDQC49S', { 'anonymize_ip': true});
 <span class="menu-text">Coaches</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./posts.html"> 
+    <a class="nav-link active" href="./posts.html" aria-current="page"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -126,218 +186,78 @@ gtag('config', 'G-81LWDQC49S', { 'anonymize_ip': true});
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="music">music <span class="quarto-category-count">(1)</span></div><div class="category" data-category="running">running <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">FSC Blog</h1>
+</div>
 
 
 
-<h2>All running goals start by taking the<br><span class="highlight">FIRST STRIDE</span></h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/fsclogo.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="300"></p>
-</figure>
-</div>
-<section id="welcome-to-first-stride-coaching" class="level2">
-<h2 data-anchor-id="welcome-to-first-stride-coaching">Welcome to <strong>First Stride Coaching</strong></h2>
-<section id="your-first-step-towards-achieving-your-running-goals-whether-youre-taking-your-initial-steps-into-running-aiming-to-smash-a-personal-best-or-training-for-marathons-and-beyond-were-here-to-guide-support-and-push-you-to-new-heights.-heres-why-runners-of-all-levels-choose-us" class="level4">
-<h4 data-anchor-id="your-first-step-towards-achieving-your-running-goals-whether-youre-taking-your-initial-steps-into-running-aiming-to-smash-a-personal-best-or-training-for-marathons-and-beyond-were-here-to-guide-support-and-push-you-to-new-heights.-heres-why-runners-of-all-levels-choose-us">Your first step towards achieving your running goals! Whether you’re taking your initial steps into running, aiming to smash a personal best, or training for marathons and beyond, we’re here to guide, support, and push you to new heights. Here’s why runners of all levels choose us:</h4>
-<p><br></p>
-<div class="custom-list-container">
-<div class="custom-list">
-<ul>
-<li><p><strong>Personalized Training Plans</strong>: Tailored to your goals, fitness level, your running environment, and lifestyle.</p></li>
-<li><p><strong>Expert Coaching</strong>: Benefit from certified coaches who are experienced runners themselves.</p></li>
-<li><p><strong>Simplicity</strong>: Online-only training seamlessly fits your busy life, at a fraction of the cost of in-person coaching.</p></li>
-<li><p><strong>Welcoming to All</strong>: We welcome runners of all backgrounds and experiences, especially if you’ve never worked with a coach before.</p></li>
-</ul>
-</div>
-</div>
-<div class="divider">
+<div class="quarto-title-meta">
 
-</div>
-</section>
-</section>
-<section id="how-does-it-work" class="level2">
-<h2 data-anchor-id="how-does-it-work">How Does it Work?</h2>
-<div class="work-container">
-<div class="work-image">
-<p><img src="images/document-901.png" class="img-fluid" width="100"></p>
-</div>
-<div class="work-text">
-<p>Fill out a short questionnaire to help our coaches tailor a training plan just for you!</p>
-</div>
-</div>
-<div class="bottom-arrow">
-
-</div>
-<div class="work-container">
-<div class="work-image">
-<p><img src="images/wrench-and-screwdriver-9431.png" class="img-fluid" width="100"></p>
-</div>
-<div class="work-text">
-<p>Our coaches will work with you to make necessary adjustments to your training plan.</p>
-</div>
-</div>
-<div class="bottom-arrow">
-
-</div>
-<div class="work-container">
-<div class="work-image">
-<p><img src="images/running-shoes-8591.png" class="img-fluid" width="100"></p>
-</div>
-<div class="work-text">
-<p>Lace up your shoes and start training!</p>
-</div>
-</div>
-<div class="bottom-arrow">
-
-</div>
-<div class="work-container">
-<div class="work-image">
-<p><img src="images/speech-bubble-1078.png" class="img-fluid" width="100"></p>
-</div>
-<div class="work-text">
-<p>Got questions? Message your coach anytime! They’ll also check in with workout recaps, plan tweaks, and race tips to keep you motivated and on track!</p>
-</div>
-</div>
-<div class="divider">
-
-</div>
-</section>
-<section id="why-first-stride-coaching" class="level2">
-<h2 data-anchor-id="why-first-stride-coaching">Why First Stride Coaching</h2>
-<p>At First Stride Coaching, you get the best of both worlds: <strong>convenience and affordability</strong>. Our online platform fits your busy schedule, providing coaching wherever and whenever you need it, all at a fraction of the cost of traditional in-person coaching.</p>
-<p>But it’s not just about the savings – our experienced coaches are dedicated to making your fitness journey <strong>enjoyable and effective</strong>. With personalized guidance and support, hitting your personal fitness milestones becomes both seamless and fun.</p>
-<p>Ready to take the first stride? Let’s do this together!</p>
-<p><br></p>
-<div class="work-container">
-
-
-
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Button Navigation</title>
-  <!-- Include your compiled CSS file -->
-  <link rel="stylesheet" href="styles.css">
-
-
-
-<button class="button" id="externalLink1">Sign Up Today!</button>
-
-<script>
-document.getElementById("externalLink1").addEventListener("click", function() {
-  window.location.href = "https://www.finalsurge.com/coach/firststridecoaching/services/subscriptions/personalruncoaching"; 
-});
-</script>
-
-
-
-</div>
-<div class="divider">
-
-</div>
-</section>
-<section id="frequently-asked-questions" class="level2">
-<h2 data-anchor-id="frequently-asked-questions">Frequently Asked Questions</h2>
-<div class="accordion accordion-flush" id="accordionFlushExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-        Do I really need a Running Coach?
-      </button>
-    </h2>
-    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">A running coach will provide personalized guidance tailored to your unique strengths, weaknesses, and goals. Every athlete is unique, and there's no such thing as a "one size fits all" training plan.<br><br>A coach can offer customized training plans, expert feedback, and accountability that you can't get on your own. With a coach by your side, you'll maximize your potential, avoid common pitfalls and injuries, and achieve your running goals faster and more efficiently.</div>
-    </div>
+    
+  
+    
   </div>
   
-  
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-        Do I need to commit to multiple months?
-      </button>
-    </h2>
-    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Nope! There is no long-term commitments here! While we're confident you'll love what we offer, if it's not your speed, you can cancel your subscription anytime hassle-free.</div>
-    </div>
-  </div>
-  
-  
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-        What if I don't want to give up my normal gym routine?
-      </button>
-    </h2>
-    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">No need to stop doing what you already love! If you want to stick with your weight-lifting routine, that's great! We can adjust your training plan to incorporate the runs needed to tackle both your strength and running goals.</div>
-    </div>
-  </div>
-  
-  
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-        What if I've never run before?
-      </button>
-    </h2>
-    <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">At First Stride Coaching, we cater to everyone – regardless of your running experience, age, weight, or anything else. We're here to support you on your journey, no matter where you're starting from.</div>
-    </div>
-  </div>
-  
-  
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-        What types of races can you help with?
-      </button>
-    </h2>
-    <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">We offer coaching for any distance! Whether you're aiming to improve your mile time or gearing up for your first 100-mile ultramarathon, we've got your back!</div>
-    </div>
-  </div>
-  
-  
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-        Do I need a running GPS watch?
-      </button>
-    </h2>
-    <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Yes, you will need a GPS watch and upload your runs to any of the <a href="https://www.finalsurge.com/connected-apps">supported platforms</a>.<br><br>As part of First Stride Coaching, you will be given a monthly subscription to <a href="https://www.finalsurge.com/premium">Final Surge Athlete Premium</a>, which comes with 20% off Garmin Products!</div>
-    </div>
-  </div>
-  
-  
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
-        How do I interact with my coach?
-      </button>
-    </h2>
-    <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">To make things easier for you, all communication is handled through our training platform, <a href="https://www.finalsurge.com/">Final Surge</a>. Your training plan will also be delivered through Final Surge. Of course, our coaches are also reachable via email if needed!</div>
-    </div>
-  </div>
-  
-  
+
+
+</header>
+
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="music,running" data-listing-date-sort="1714795200000" data-listing-file-modified-sort="1714865974654" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="409">
+<div class="thumbnail">
+<p><a href="./posts/2024-05-04-Running_with_Music/index.html" class="no-external"></a></p><a href="./posts/2024-05-04-Running_with_Music/index.html" class="no-external">
+<p><img src="./posts/2024-05-04-Running_with_Music/runner-music.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2024-05-04-Running_with_Music/index.html" class="no-external"></a></p>
 </div>
-<div class="divider">
-
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2024-05-04-Running_with_Music/index.html" class="no-external">Running With Music</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2024-05-04-Running_with_Music/index.html" class="no-external"></a>
 </div>
-<center>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScsY05Q7SV15MePasCKf05UcpzJBTY-hygt1zpVvdtUnPJlHQ/viewform?embedded=true" width="100%" height="1100px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-</center>
-
-
-</section>
-
-</main> <!-- /main -->
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('music'); return false;">
+music
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('running'); return false;">
+running
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/2024-05-04-Running_with_Music/index.html" class="no-external">After years of searching, I finally found my ideal music/podcast setup for running! </a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/2024-05-04-Running_with_Music/index.html" class="no-external">
+<div class="listing-date">
+May 4, 2024
+</div>
+<div class="listing-author">
+Ryan Johnson
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

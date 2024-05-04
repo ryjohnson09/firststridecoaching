@@ -1,0 +1,50 @@
+---
+title: "Running With Music"
+description: |
+  After years of searching, I finally found my ideal music/podcast setup for running!
+author: "Ryan Johnson"
+date: "2024-05-04"
+categories: [music, running]
+image: "runner-music.png"
+---
+
+Depending on what you're training for, you could be out on a run for 1, 2, maybe even 3+ hours. When there's not much to look at, long runs can get boring fast. Or maybe you just need a distraction to get you through a tough workout.
+
+I'm not a huge fan of running with my clunky phone, unless I have a running vest on. I also prefer to keep things as minimal as possible. I've spent 5 years trying to find the perfect music player/headphone combination, and I'm excited to share my findings! I'll also share my "runner up" music setup.
+
+## Garmin Forerunner 965
+
+![](garmin-965.jpg){fig-align="center" width="162"}
+
+5 years ago, my current music running setup wasn't possible. But now, many GPS running watches have music/podcast storage and bluetooth pairing with headphones. It's not cheap, but I currently run with the [Garmin Forerunner 965](https://www.garmin.com/en-US/which-watch/athlete/option2/2/). I use the Spotify app within Garmin Connect to add custom playlists and podcasts to my watch before I head out for a run. Once it's configured, you can add Spotify playlists/podcasts all from the watch interface.
+
+## Shokz OpenRun
+
+![](shokz.jpg){fig-align="center" width="250"}
+
+You should always be aware of your surroundings when running, which is why I currently run with [OpenRun bone conducting headphones from Shokz](https://shokz.com/products/openrun). These pair beautifully with my watch and allow me to hear the world around me in addition to my music. The battery life is solid; I've only ran out of juice during my ultra-marathons (5+ hours). If you do decide to use your phone instead of your watch, you can also take calls with these headphones.
+
+## Runner Up
+
+![](mighty.png){fig-align="center" width="198"}
+
+There used to be a popular iPod perfect for running called the iPod Shuffle. If you're looking for something similar in the post-iPod era, then check out [Mighty](https://bemighty.com/). It worked well with the openrun headphones, and easily clips onto your shirt/shorts. I used the Mighty for about a year, and my only negative feedback is that without a screen, it can sometime be challenging to pair and sync songs with your phone.
+
+Happy Running!!
+
+```{=html}
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;
+    this.page.identifier = PAGE_IDENTIFIER;
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://firststridecoaching.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+```
